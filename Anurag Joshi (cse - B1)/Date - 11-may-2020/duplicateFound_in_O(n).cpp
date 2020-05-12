@@ -28,14 +28,14 @@ int main(){
 	for(int i:v){
 		m.at(i)+=1;
 		//for having ques answer's, we can check:-
-		/* if(m.at(i)==2){
+		if(m.at(i)==2){
 			cout<<i<<" is a duplicate number.";
 			break;
-		} */
+		}
 	}
-	cout<<"Total Occurences of every of integer :->";
+	/*cout<<"Total Occurences of every of integer :->";
 	for(auto x:m){
 		cout<<"\n"<<x.first<<" -> "<<x.second;
-	}
+	}*/
 	return 0;
 }
